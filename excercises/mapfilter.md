@@ -23,11 +23,11 @@ Let's get familiar with callbacks, using some of the array-type’s built-in met
         <li>Peter</li>
         <li>Jan</li>
         <li>Ian</li>
-        <ul>
+        </ul>
 
    The output above was shown with newlines for readability, but this is actually what we want (why):
 
-        <ul><li>Lars</li><li>Peter<li><li>Jan<li><li>Ian</li><ul>
+        <ul><li>Lars</li><li>Peter</li><li>Jan</li><li>Ian</li></ul>
 
 </br>
 
@@ -45,9 +45,12 @@ Let's get familiar with callbacks, using some of the array-type’s built-in met
         - Cars newer than 1999
         - Al  Volvo’s
         - All cars with a price below 5000
-    -  Use map and join to implement a function, that, given the cars array used above, will create, and return a string with valid SQL statements to insert the data into a table with matching column names (id, year, make, model, price) as sketched below:
+
+</br>
+
+5. Use map and join to implement a function, that, given the cars array used above, will create, and return a string with valid SQL statements to insert the data into a table with matching column names (id, year, make, model, price) as sketched below:
 
         
-        ```INSERT INTO cars (id,year,make,model,price) VALUES ( 1, 1997 'Ford''E350', 3000 );```
+    ```INSERT INTO cars (id,year,make,model,price) VALUES ( 1, 1997 'Ford''E350', 3000 );```
 
 
