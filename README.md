@@ -101,7 +101,7 @@ In JavaScript, the this keyword refers to an object. Which object depends on how
 </figure>
 
 
-- One thing to remmber is, at the scope chain doesn't work the other way around. The global scope will not have access to the variable b or c, unless the function returns them.
+- One thing to remember is, at the scope chain doesn't work the other way around. The global scope will not have access to the variable b or c, unless the function returns them.
 
 **Lexical scoping** (sometimes known as static scoping ) is a convention used with many programming languages that sets the scope (range of functionality) of a variable so that it may only be called (referenced) from within the block of code in which it is defined. The scope is determined when the code is compiled. A variable declared in this fashion is sometimes called a private variable.
 
